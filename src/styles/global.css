@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .title_text {
+    @apply px-8 font-mono text-2xl font-semibold text-banner_text decoration-banner_text hover:underline underline-offset-4;
+  }
+}

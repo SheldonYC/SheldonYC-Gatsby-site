@@ -2,9 +2,21 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  siteMetadata: {
-    title: `SheldonYC`,
-    siteUrl: `https://www.yourdomain.tld`
-  },
-  plugins: ["gatsby-plugin-postcss"]
+    siteMetadata: {
+        title: `SheldonYC`,
+        siteUrl: `https://www.yourdomain.tld`,
+    },
+    plugins: [
+      "gatsby-plugin-postcss",
+      "gatsby-plugin-image",
+      "gatsby-plugin-sharp",
+      "gatsby-transformer-sharp",
+    //   {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     name: "src",
+    //     path: `${__dirname}/src/`,
+    //   },
+    // },
+    ],
 };
