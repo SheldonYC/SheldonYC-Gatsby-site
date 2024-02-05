@@ -53,7 +53,7 @@ const IndexPage = () => {
             width={1600} height={2400} />
         </div>
         {/* Section of skillsets */}
-        <h2 className="mt-8 font-mono self-center font-extrabold text-4xl text-primary_color">My skillset:</h2>
+        <h2 className="mt-8 font-mono self-center font-extrabold text-4xl text-primary_color">My skillsets:</h2>
         <Skillsets skillsets={skillsets} />
       </div>
     </Layout>
